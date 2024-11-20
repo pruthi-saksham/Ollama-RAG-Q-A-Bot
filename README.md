@@ -1,5 +1,5 @@
 
-# RAG Document Q&A With Ollama and Llama3.2-Vision
+# Ollama-RAG-Q-A-Bot
 
 This project is a Streamlit-based web application that utilizes the Ollama LLM (language model) and Llama3.2-Vision to perform document-based Question and Answering (Q&A). The application takes user queries, processes the input, searches through vectorized embeddings of PDF documents (loaded using PyPDFDirectoryLoader), and retrieves the most relevant information to provide accurate responses. The search is powered by FAISS, which stores and manages the vector embeddings for efficient similarity searches.
 
