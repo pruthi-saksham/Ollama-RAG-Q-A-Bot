@@ -37,7 +37,7 @@ Ensure you have the following software installed:
  First, clone the repository to your local machine:
 
 ```bash
-  git clone https://github.com/pruthi-saksham/rag-document-qa-ollama-llama.git
+git clone https://github.com/pruthi-saksham/rag-document-qa-ollama-llama.git
 cd rag-document-qa-ollama-llama
 ```
 
@@ -46,18 +46,18 @@ cd rag-document-qa-ollama-llama
 It's recommended to use a virtual environment for managing dependencies:
 
 ```bash
-  python -m venv venv
+python -m venv venv
 ```
 
 
 3. **Activate the Virtual Environment**:
  On Windows:
 ```bash
- venv\Scripts\activate
+venv\Scripts\activate
 ```
 On macOS/Linux:
 ```bash
- source venv/bin/activate
+source venv/bin/activate
 ```
 
 4. **Install Dependencies**
@@ -72,13 +72,13 @@ pip install -r requirements.txt
 + Sign up at HuggingFace and generate your API key.
 + Create a `.env` file in the root of the project and add the following line
 ```bash
-  HF_API_KEY=your-huggingface-api-key
+HF_API_KEY=your-huggingface-api-key
 ```
 
 6. **Run the Application**
  Start the Streamlit application:
 ```bash
-  streamlit run app.py
+streamlit run app.py
 ```
 
 
