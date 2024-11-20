@@ -37,8 +37,8 @@ Ensure you have the following software installed:
  First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/pruthi-saksham/rag-document-qa-ollama-llama.git
-cd rag-document-qa-ollama-llama
+git clone https://github.com/pruthi-saksham/Ollama-RAG-Q-A-Bot
+cd Ollama-RAG-Q-A-Bot
 ```
 
 
